@@ -1,0 +1,41 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #017BFF;
+            padding: 20px 20px; /* Added padding to the left and right */
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+
+        header img {
+            max-height: 50px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+
+        footer {
+                    background-color: lightgray;
+                    color: #333;
+                    text-align: center;
+                    padding: 10px;
+                    position: fixed;
+                    bottom: 0;
+                    width: 100%;
+                }
